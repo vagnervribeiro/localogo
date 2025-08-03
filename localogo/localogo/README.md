@@ -15,7 +15,6 @@ Quarkus
 Java 17+
 Maven
 SQL (futuro)
-OpenAPI/Swagger (futuro)
 
 ## Configuração
 Por padrão, a API utiliza armazenamento em memória.
