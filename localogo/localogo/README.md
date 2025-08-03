@@ -17,6 +17,21 @@ Maven
 SQL (futuro)
 OpenAPI/Swagger (futuro)
 
+## Configuração
+Por padrão, a API utiliza armazenamento em memória.
+Para uso com banco de dados, configure o application.properties conforme necessário.
+
+## Validações e Regras de Negócio
+Só é possível excluir veículos que não estejam alugados.
+Transições de status seguem regras definidas:
+Disponível → Alugado ou Manutenção
+Alugado → Disponível ou Manutenção
+Manutenção → Disponível
+
+## Contribuição
+Contribuições são bem-vindas!
+Abra uma issue ou envie um pull request.
+
 
 ## Running the application in dev mode
 
