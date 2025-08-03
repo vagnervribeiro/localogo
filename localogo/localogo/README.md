@@ -1,8 +1,22 @@
 # localogo
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+API de Gerenciamento de Veículos
+API REST para cadastro, consulta, alteração de status e exclusão de veículos, desenvolvida com Quarkus, Java e Maven.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
+Autor
+Vagner Vinicius Ribeiro
+
+## Sobre
+Esta API permite gerenciar veículos, incluindo cadastro, consulta, alteração de status (disponível, alugado, manutenção) e exclusão. Ideal para sistemas de locação ou gestão de frotas.
+
+
+## Tecnologias
+Quarkus
+Java 17+
+Maven
+SQL (futuro)
+OpenAPI/Swagger (futuro)
+
 
 ## Running the application in dev mode
 
